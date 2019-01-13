@@ -8,6 +8,10 @@
 import scrapy
 
 
+class ImgItem(scrapy.Item):
+    src=scrapy.Field()
+    filename=scrapy.Field()
+    
 class ScrapydemoItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()

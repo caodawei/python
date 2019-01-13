@@ -1,2 +1,2 @@
 import scrapy.cmdline as cmd
-cmd.execute("scrapy crawl job".split())
+cmd.execute("scrapy crawl img".split())
